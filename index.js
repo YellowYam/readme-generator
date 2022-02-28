@@ -46,14 +46,24 @@ const questions = [
         name: 'tests',
         message: 'Does it pass all requirement tests?',
     },
-   
+
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) { 
+    fs.writeFile(fileName, data, (err) => console.error('Error', err));
+}
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+    inquirer
+    .prompt(questions)
+    .then(data => {
+        writeToFile(`${data.title}.md`, generateMarkdown(data));
+    }
+    )
+};
 
 // Function call to initialize app
 init();
+
