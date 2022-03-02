@@ -33,7 +33,7 @@
  *  Someone else
 
   ## Tests
-  true
+  ![issues](https://img.shields.io/github/issues/YellowYam/good-readme-generator?style=plastic)
 
   ## Questions?
   <a href = "mailto:cody.scoles@gmail.com"> Email me! </a> <br>

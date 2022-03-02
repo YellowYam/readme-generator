@@ -57,9 +57,6 @@ const questions = [
         message: 'Enter all collaborators on the project, separated by a comma: ',
         
     },
-    
-    
-
 ];
 
 // TODO: Create a function to write README file

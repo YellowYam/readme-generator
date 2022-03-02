@@ -1,14 +1,26 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(!license){
+    return '';
+  }
+  return `![License](${renderLicenseLink()})`
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if(!license){
+    return '';
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  `#License
+    ${renderLicenseBadge()}`
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -29,7 +41,7 @@ function generateMarkdown(data) {
   ***
   Type these commands into git bash to install the application.
   \`\`\`
-  $ git clone git@github.com:YellowYam/good-readme-generator.git
+  $ git clone git@github.com:YellowYam/good-readme-generator.gitgit
   $ cd ../path/to/the/file
   $ npm install
   $ npm start
@@ -41,12 +53,12 @@ function generateMarkdown(data) {
   to the generator's directory, and run <code> node index.js </code>.
   
   A prompt will appear in the console window.
-  [!Example prompt image](./prompt-screenshot.jpg)
+  <!-- [!Example prompt image](./prompt-screenshot.jpg) -->
 
   Answer the questions by entering all required information. The application writes a markdown file to the 
   working directory with the same filename as the title of the new project.
 
-  [!Example readme file](./prompt-screenshot-2.jpg)
+  <!-- [!Example readme file](./prompt-screenshot-2.jpg) -->
 
   This file contains a functional professional README. Be sure to add any additional tests and features as
   they're developed.
@@ -59,10 +71,14 @@ function generateMarkdown(data) {
 
   ## Tests
   At present, no tests can be performed on this code. The application meets all requirements without errors.
+  ![Issues](https://img.shields.io/github/issues/YellowYam/good-readme-generator?style=plastic)
+  ![Tests](https://img.shields.io/appveyor/tests/YellowYam/good-readme-generator/main?style=plastic)
 
   ## Questions?
   <a href = "mailto:${data.emailAddress}"> Email me! </a> <br>
   <a href = "https://www.github.com/${data.gitHub}"> GitHub </a>
+
+  ${renderLicenseSection}
 
 `;
 }
