@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   
 
   ## Usage
-  ${data.usage}
+
 
   ## Contributors
   If you would like to become a contributor on this project, please find my contact information in the [questions](#questions)
@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   * ${contributors}
 
   ## Tests
-  ${data.tests}
+
 
   ## Questions?
   <a href = "mailto:${data.emailAddress}"> Email me! </a> <br>

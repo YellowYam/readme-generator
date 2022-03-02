@@ -49,7 +49,7 @@ const questions = [
     {
         type: 'editor',
         name: 'usage',
-        message: 'Enter usage information: ',
+        message: 'Enter usage information, in markdown: ',
     },
     {
         type: 'input',
@@ -57,11 +57,7 @@ const questions = [
         message: 'Enter all collaborators on the project, separated by a comma: ',
         
     },
-    {
-        type: 'confirm',
-        name: 'tests',
-        message: 'Does it pass all requirement tests?',
-    },
+    
     
 
 ];
