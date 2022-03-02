@@ -25,7 +25,15 @@ function generateMarkdown(data) {
   5. [Questions](#questions)
 
   ## Installation
-  ${data.installation}
+  ***
+  A little intro about the installation. 
+  \`\`\`
+  $ git clone 
+  $ cd ../path/to/the/file
+  $ npm install
+  $ npm start
+  \`\`\`
+  
 
   ## Usage
   ${data.usage}

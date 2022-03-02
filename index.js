@@ -15,11 +15,31 @@ const questions = [
         type: 'input',
         name: 'emailAddress',
         message: 'Enter your email: ',
+        validate(value) {
+            const pass = value.match(/[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/)
+            if (pass) {
+                return true;
+              }
+        
+              return 'Please enter a valid email.';
+            },
+        
     },
     {
         type: 'input',
         name: 'gitHub',
         message: 'Enter your GitHub username: ',
+        validate(value) {
+            const pass = value.match(/w+/i)
+            if (pass) {
+                return true;
+              }
+        
+              return 'Please enter a valid GitHub username.';
+            },
+        
+
+        
     },
     {
         type: 'editor',
@@ -29,7 +49,7 @@ const questions = [
     {
         type: 'editor',
         name: 'installation',
-        message: 'Enter installation instructions: ',
+        message: 'Enter a brief intro to the installation instructions: ',
     },
     {
         type: 'editor',
