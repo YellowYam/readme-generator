@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   * ${contributors}
 
   ## Tests
-
+  At present, no tests can be performed on this code. The application meets all requirements without errors.
 
   ## Questions?
   <a href = "mailto:${data.emailAddress}"> Email me! </a> <br>
