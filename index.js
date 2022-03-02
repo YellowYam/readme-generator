@@ -13,7 +13,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'email-address',
+        name: 'emailAddress',
         message: 'Enter your email: ',
     },
     {
@@ -37,7 +37,7 @@ const questions = [
         message: 'Enter usage information: ',
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'contributors',
         message: 'Enter all collaborators on the project: ',
     },

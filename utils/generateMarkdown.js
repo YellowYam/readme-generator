@@ -14,22 +14,31 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  # Description
+  ## Description
   ${data.description}
 
-  # TOC
+  ## TOC
+  1. [Installation](#installation)   
+  2. [Usage](#usage)                 
+  3. [Contributors](#contributors)
+  4. [Tests](#tests)
+  5. [Questions](#questions)
 
-  # Installation
+  ## Installation
   ${data.installation}
 
-  # Usage
+  ## Usage
   ${data.usage}
 
-  # Contributors
+  ## Contributors
   ${data.contributors}
 
-  # Passes all tests
+  ## Tests
   ${data.tests}
+
+  ## Questions?
+   * <a href = "mailto:${data.emailAddress}"> Email me! </a>
+   * <a href = "https://www.github.com/${data.gitHub}"> GitHub </a>
 
 `;
 }
