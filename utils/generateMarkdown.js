@@ -12,6 +12,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  contributors = data.contributors.split(',').join('<br>');
   return `# ${data.title}
 
   ## Description
@@ -26,7 +27,7 @@ function generateMarkdown(data) {
 
   ## Installation
   ***
-  A little intro about the installation. 
+  Type these commands into git bash to install the application.
   \`\`\`
   $ git clone 
   $ cd ../path/to/the/file
@@ -39,7 +40,11 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Contributors
-  ${data.contributors}
+  If you would like to become a contributor on this project, please find my contact information in the [questions](#questions)
+  section of this README.
+
+  Current contributors:
+  ${contributors}
 
   ## Tests
   ${data.tests}

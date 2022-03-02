@@ -57,15 +57,17 @@ const questions = [
         message: 'Enter usage information: ',
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'contributors',
-        message: 'Enter all collaborators on the project: ',
+        message: 'Enter all collaborators on the project, separated by a comma: ',
+        
     },
     {
         type: 'confirm',
         name: 'tests',
         message: 'Does it pass all requirement tests?',
     },
+    
 
 ];
 
