@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   ***
   Type these commands into git bash to install the application.
   \`\`\`
-  $ git clone 
+  $ git clone git@github.com:YellowYam/good-readme-generator.git
   $ cd ../path/to/the/file
   $ npm install
   $ npm start
@@ -37,7 +37,19 @@ function generateMarkdown(data) {
   
 
   ## Usage
+  Good-README-generator is a node-based JavaScript file. After installation, open a bash shell, navigate
+  to the generator's directory, and run <code> node index.js </code>.
+  
+  A prompt will appear in the console window.
+  [!Example prompt image](./prompt-screenshot.jpg)
 
+  Answer the questions by entering all required information. The application writes a markdown file to the 
+  working directory with the same filename as the title of the new project.
+
+  [!Example readme file](./prompt-screenshot-2.jpg)
+
+  This file contains a functional professional README. Be sure to add any additional tests and features as
+  they're developed.
 
   ## Contributors
   If you would like to become a contributor on this project, please find my contact information in the [questions](#questions)
