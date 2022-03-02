@@ -12,7 +12,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  contributors = data.contributors.split(',').join('<br>');
+  contributors = data.contributors.split(',').join('\n * ');
   return `# ${data.title}
 
   ## Description
@@ -43,15 +43,14 @@ function generateMarkdown(data) {
   If you would like to become a contributor on this project, please find my contact information in the [questions](#questions)
   section of this README.
 
-  Current contributors:
-  ${contributors}
+  * ${contributors}
 
   ## Tests
   ${data.tests}
 
   ## Questions?
-   * <a href = "mailto:${data.emailAddress}"> Email me! </a>
-   * <a href = "https://www.github.com/${data.gitHub}"> GitHub </a>
+  <a href = "mailto:${data.emailAddress}"> Email me! </a> <br>
+  <a href = "https://www.github.com/${data.gitHub}"> GitHub </a>
 
 `;
 }

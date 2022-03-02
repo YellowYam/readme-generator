@@ -42,14 +42,9 @@ const questions = [
         
     },
     {
-        type: 'editor',
+        type: 'input',
         name: 'description',
         message: 'Enter a brief description for the project: ',
-    },
-    {
-        type: 'editor',
-        name: 'installation',
-        message: 'Enter a brief intro to the installation instructions: ',
     },
     {
         type: 'editor',
