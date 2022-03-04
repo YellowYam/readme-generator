@@ -1,16 +1,16 @@
 # Readme Generator
   
-  ## Description
+## Description
   Automatically generates README files
 
-  ## TOC
+## TOC
   1. [Installation](#installation)   
   2. [Usage](#usage)                 
   3. [Contributors](#contributors)
   4. [Tests](#tests)
   5. [Questions](#questions)
 
-  ## Installation
+## Installation
   ***
   Type these commands into git bash to install the application. Readme Generator was created with
   [git bash](https://git-scm.com/) and [node package manager](https://nodejs.org/en/).
@@ -21,8 +21,8 @@
   $ npm install
   ``` 
 
-  ## Usage
-   Once installed,
+## Usage
+Once installed,
 
 1. Navigate to the application directory.
 2. Run <code>node index.js</code>.
@@ -30,24 +30,24 @@
 
 Note: The Usage section is highly variable, so you will be prompted with an editor.
 
-### Walkthrough Video
-<iframe src="https://drive.google.com/file/d/1FLl4S5eUzUMdaKaZmLjwEYMsgwYZzK0f/preview" width="640" height="480"></iframe>
+##### A [Walkthrough Video](WalkthroughVideo.webm) is available.
 
-  ## Contributors
+
+## Contributors
   If you would like to become a contributor on this project, please find my contact information in the [questions](#questions)
   section of this README.
 
   * YellowYam (Cody S.)
 
-  ## Tests
+## Tests
   ![Issues](https://img.shields.io/github/issues/YellowYam/Readme-Generator?style=plastic)<br>
   At present, no tests can be performed on this code. The application meets all requirements without errors.
 
-  ## Questions?
+ ## Questions?
   <a href = "mailto:undefined"> Email me! </a> <br>
   <a href = "https://www.github.com/YellowYam"> GitHub </a>
 
-  ## License 
+ ## License 
 
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
