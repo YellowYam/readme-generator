@@ -1,7 +1,7 @@
 # Readme Generator
   
   ## Description
-  This application automatically generates README files, like this one!
+  Automatically generates README files
 
   ## TOC
   1. [Installation](#installation)   
@@ -46,5 +46,5 @@ Note: The Usage section is highly variable, so you will be prompted with an edit
 
   ## License 
 
-  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
