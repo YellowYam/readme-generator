@@ -100,6 +100,7 @@ function renderUsage(usage) {
     return `## Usage
    ${usage}`
   }
+  return '';
 }
 
 // This function returns the Contributors section of README
