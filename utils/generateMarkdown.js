@@ -147,7 +147,7 @@ function generateMarkdown(data) {
 
   ${renderTests(data.gitHub, repoTitle)}
 
-  ${renderQuestions(data.email, data.gitHub)}
+  ${renderQuestions(data.emailAddress, data.gitHub)}
 
   ${renderLicenseSection(data.license)}
 
