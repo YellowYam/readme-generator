@@ -1,4 +1,4 @@
-# Readme Generator
+# Readme Generator [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
   Automatically generates README files
@@ -49,5 +49,6 @@ Note: The Usage section is highly variable, so you will be prompted with an edit
 
  ## License 
 
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
+  (The license badge is a clickable link.)
 

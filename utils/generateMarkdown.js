@@ -56,7 +56,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return `## License 
 
-  ${renderLicenseBadge(license)}`
+  ${renderLicenseBadge(license)}<br>
+  (The license badge is a clickable link.)`
 }
 
 // This function returns the description section of README
@@ -133,7 +134,7 @@ function generateMarkdown(data) {
   contributors = data.contributors.split(',').join('\n * ');
   repoTitle = data.title.split(' ').join('-');
 
-  return `# ${data.title}
+  return `# ${data.title} ${renderLicenseBadge(data.license)}
   
   ${renderDescription(data.description)}
 
