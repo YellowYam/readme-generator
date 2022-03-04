@@ -83,7 +83,10 @@ const questions = [
 
 // Writes the README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => console.error('Error', err));
+    fs.writeFile(fileName, data, (err) => {
+        if(err) {console.error('Error', err)}
+        else {console.log('README successfully generated.')}
+    })
 }
 
 // Initializes the app
@@ -94,6 +97,7 @@ function init() {
             writeToFile(`README.md`, generateMarkdown(data));
         }
         )
+        .catch((err) => console.error(err))
 };
 
 // Function call to initialize app
