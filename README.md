@@ -30,6 +30,9 @@
 
 Note: The Usage section is highly variable, so you will be prompted with an editor.
 
+### Walkthrough Video
+<iframe src="https://drive.google.com/file/d/1FLl4S5eUzUMdaKaZmLjwEYMsgwYZzK0f/preview" width="640" height="480"></iframe>
+
   ## Contributors
   If you would like to become a contributor on this project, please find my contact information in the [questions](#questions)
   section of this README.
