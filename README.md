@@ -1,4 +1,4 @@
-# Readme Generator [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Yes Requirements Readme Generator [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
   Automatically generates README files
@@ -30,7 +30,7 @@ Once installed,
 
 Note: The Usage section is highly variable, so you will be prompted with an editor.
 
-##### A [Walkthrough Video](WalkthroughVideo.webm) is available.
+##### A [Walkthrough Video](https://drive.google.com/file/d/1FLl4S5eUzUMdaKaZmLjwEYMsgwYZzK0f/view) is available.
 
 
 ## Contributors
