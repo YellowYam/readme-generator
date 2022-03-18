@@ -16,7 +16,7 @@
   [git bash](https://git-scm.com/) and [node package manager](https://nodejs.org/en/).
 
   ```
-  $ git clone git@github.com:YellowYam/Readme-Generator.git
+  $ git clone git@github.com:YellowYam/yes-requirements-readme-generator.git
   $ cd ../path/to/the/file
   $ npm install
   ``` 
